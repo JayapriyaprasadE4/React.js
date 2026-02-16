@@ -1,0 +1,46 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    /* background: rgb(245, 175, 184); */
+    background-color: midnightblue;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-bottom: 20px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    text-decoration: underline;
+    /* background-color: royalblue; */
+    
+}
+
+.cardBox{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding: 10px;
+}
+
+.card{
+    background-color: slategray;
+
+    padding: 15px;
+    border-radius: 10px;
+
+    border:1px solid black;
+   
+}
+
+.card:hover{
+    background-color: rgb(207, 202, 212);
+}
+
+.cardTitle{
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: bold;
+
+}
